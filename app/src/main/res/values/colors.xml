@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#000</color>-->
+    #ab47bc,#ffffff,#ffca28
+    <!--<color name="colorPrimary">#2b1941</color>-->
+    <!--<color name="black">#000</color>-->
+    <!--&lt;!&ndash;<color name="colorPrimaryDark">#000</color>&ndash;&gt;-->
+    <!--#ffd740,#424242-->
+    <!--<color name="colorPrimaryDark">#12aca2</color>-->
+    <!--<color name="colorAccent">#f57e56</color>-->
+
+    <color name="blueColor">#05062b</color>
+    <color name="greenColor">#15dccf</color>
+    <color name="purpleColor">#4e2087</color>
+    <color name="orangeColor">#f56126</color>
+
+    <color name="darkBlueColor">#FF020AFF</color>
+
+
+    <!--<color name="colorAccent">#50EBEC</color>-->
+    <color name="akcolorPrimary">#E65100</color>
+
+    <color name="akcolorPrimaryDark">#EF6C00</color>
+    <color name="akcolorAccent">#ffffff</color>
+    <color name="white">#FFFF</color>
+    <color name="divider">#558b2f</color>
+    <color name="textColor">#33691e</color>
+    <color name="windowBackground">#ccff90</color>
+    <color name="colorPrimaryDarkOpacity">#b9aeea00</color>
+    <color name="subtextColor">#558b2f</color>
+
+    ////sagar
+    <color name="colorPrimary">#034076</color>
+    <color name="black">#000</color>
+    <!--<color name="colorPrimaryDark">#000</color>-->
+    #ffd740,#424242
+    <color name="colorPrimaryDark">#50b0df</color>
+    <color name="colorAccent">#b74aac</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <com.equipesoftwares.common.CircularNetworkImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:id="@+id/ivnav_app_logo"
+            android:src="@drawable/my_future_logo"/>
+
+        <TextView
+            android:id="@+id/tvNavigationHeader"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/purpleColor"
+            />
+
+        <View
+            android:id="@+id/ViewLineNavigation"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>

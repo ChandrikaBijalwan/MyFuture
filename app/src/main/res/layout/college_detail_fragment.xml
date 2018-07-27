@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:visibility="visible"
+    android:id="@+id/rlAboutDetail"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            style="@style/TextViewStyle1"
+            android:text="About College"/>
+
+        <TextView
+            android:id="@+id/tvCollegeAboutDescription"
+            style="@style/TextViewStyle2"
+            />
+
+        <TextView
+            style="@style/TextViewStyle1"
+            android:text="@string/tvfaculties"/>
+        <TextView
+            android:id="@+id/tvPrincipalName"
+            style="@style/TextViewStyle2"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tvVicePrincipalName"
+            style="@style/TextViewStyle2"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/tvFacultyName"
+            style="@style/TextViewStyle2"
+            android:visibility="gone"
+            />
+
+
+
+        <TextView
+            style="@style/TextViewStyle1"
+            android:text="@string/filter_management"/>
+
+        <TextView
+            android:id="@+id/tvCollegeManagement"
+            style="@style/TextViewStyle2"
+            />
+
+        <TextView
+            style="@style/TextViewStyle1"
+            android:text="@string/title_university"
+            />
+
+        <TextView
+            android:id="@+id/tvCollegeUniversity"
+            style="@style/TextViewStyle2"
+            />
+
+        <TextView
+            style="@style/TextViewStyle1"
+            android:text="@string/tvmedium"/>
+
+        <TextView
+            android:id="@+id/tvCollegeMedium"
+            style="@style/TextViewStyle2"
+            />
+
+
+        <TextView
+
+            style="@style/TextViewStyle1"
+            android:text="@string/title_courses"
+            />
+
+        <TextView
+            android:id="@+id/tvCollegeCourses"
+            style="@style/TextViewStyle2"
+
+            />
+        <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvBranches"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/tvPlacementTitle"
+            style="@style/TextViewStyle1"
+            android:text="@string/title_placement"
+            />
+
+
+        <TextView
+            style="@style/TextViewStyle2"
+            android:id="@+id/tvPlacement"
+
+
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

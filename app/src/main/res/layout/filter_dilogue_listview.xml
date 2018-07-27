@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlRoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+    android:layout_margin="10dp"
+        android:scrollbars="none" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Category"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/tvTitle"/>
+        <LinearLayout
+            android:layout_below="@+id/tvTitle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liSchoolCollege">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/filterRadioGroup"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:weightSum="3"
+                android:checkedButton="@+id/cbAll" >
+
+
+                <RadioButton
+                    android:id="@+id/rbSchool"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/filter_school" />
+                <RadioButton
+                    android:id="@+id/rbCollege"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/filter_college" />
+                <RadioButton
+                    android:id="@+id/rbAll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/filter_all" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:id="@+id/limanagement"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liSchoolCollege">
+
+            <TextView
+                android:layout_below="@+id/liSchoolCollege"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvmanagements"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:text="@string/filter_management"/>
+
+
+
+            <CheckBox
+                android:id="@+id/chkPublic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_public" />
+
+            <CheckBox
+                android:id="@+id/chkPrivate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_private" />
+
+            <CheckBox
+                android:id="@+id/chkGovernment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_government" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_below="@+id/limanagement"
+            >
+
+            <Button
+
+                android:id="@+id/btnApply"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/cardview_border"
+                android:text="@string/filter_alert_apply"
+                android:textColor="@color/white"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/cardview_border"
+                android:text="@string/filter_alert_cancel"
+                android:textColor="@color/white"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>

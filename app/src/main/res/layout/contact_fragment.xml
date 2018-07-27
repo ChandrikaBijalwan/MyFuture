@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:layout_margin="12dp"
+    android:id="@+id/rlContact"
+    >
+
+
+
+       <TextView
+           style="@style/TextViewStyle3"
+           android:text="Address"/>
+
+       <TextView
+           android:id="@+id/tvAddress"
+           style="@style/TextViewStyle2"
+          />
+       <TextView
+           style="@style/TextViewStyle3"
+           android:text="City"/>
+
+       <TextView
+           android:id="@+id/tvCity"
+           style="@style/TextViewStyle2"
+           />
+
+       <TextView
+           style="@style/TextViewStyle3"
+           android:text="Email"/>
+
+       <TextView
+           android:id="@+id/tvEmail"
+           style="@style/TextViewStyle2"
+           android:autoLink="email"
+           android:textColorLink="@color/darkBlueColor"
+           />
+
+       <TextView
+           style="@style/TextViewStyle3"
+           android:text="Website"/>
+
+       <TextView
+           android:id="@+id/tvWebsite"
+           style="@style/TextViewStyle2"
+           android:autoLink="web"
+           android:textColorLink="@color/darkBlueColor"
+           />
+
+       <TextView
+           style="@style/TextViewStyle3"
+           android:text="Phone"/>
+
+       <TextView
+           android:id="@+id/tvPhone"
+           style="@style/TextViewStyle2"
+           android:autoLink="phone"
+           android:textColorLink="@color/darkBlueColor"
+          />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/rlMapFragment"
+        android:visibility="visible"
+       >
+
+
+       <com.google.android.gms.maps.MapView
+           android:id="@+id/map"
+           android:layout_marginTop="10dp"
+           android:name="com.google.android.gms.maps.SupportMapFragment"
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+
+          />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

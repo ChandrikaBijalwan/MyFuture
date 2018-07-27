@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/Settings"
+        android:title="Setting"
+        app:showAsAction="always"
+        android:icon="@drawable/setting_white_icon"
+        >
+
+        <menu>
+            <item android:id="@+id/app_info"
+                android:title="App Info"
+                app:showAsAction="ifRoom|collapseActionView"
+                />
+
+            <item android:id="@+id/about_us"
+                android:title="About Us"
+                app:showAsAction="ifRoom|collapseActionView"
+                />
+
+        </menu>
+    </item>
+
+</menu>

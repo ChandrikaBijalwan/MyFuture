@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFuture.iml" filepath="$PROJECT_DIR$/MyFuture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_Lib_PagerIndicator/a_Lib_PagerIndicator.iml" filepath="$PROJECT_DIR$/a_Lib_PagerIndicator/a_Lib_PagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_Lib_androidautoscrollviewpager/a_Lib_androidautoscrollviewpager.iml" filepath="$PROJECT_DIR$/a_Lib_androidautoscrollviewpager/a_Lib_androidautoscrollviewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

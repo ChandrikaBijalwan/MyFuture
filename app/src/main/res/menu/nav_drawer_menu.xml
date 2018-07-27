@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group_one"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/navAbout"
+            android:title="@string/about_title"
+            />
+        <item
+            android:id="@+id/navAchievementAndActivities"
+            android:title="@string/achievement_and_activities_title" />
+        <item
+            android:id="@+id/navFacilitiesAndInfrastructure"
+            android:title="@string/facilities_infrastructure_title" />
+        <item
+            android:id="@+id/navContact"
+            android:title="@string/contact_title" />
+
+        <item
+            android:id="@+id/navBackToSearch"
+            android:title="@string/title_nav_back_to_search" />
+
+
+
+
+ </group>
+</menu>

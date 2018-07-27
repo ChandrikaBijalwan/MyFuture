@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">My Future</string>
+    <string name="places_api_key">AIzaSyCF9xqK40AdU04av_LJ_uv4DhEf6PD0guM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="About">Embraced by the nature\'s beauty, bestowed with the tranquility and serenity of Mother Nature, SSR College of Arts, Commerce and Science is the epitome of knowledge, virtue and righteousness. IT is rightly said that knowledge is the key to success and prosperity.\n \n   Success is the sum of all small efforts. Success is doing what you want to do, when you want. If you want to succeed you should strike out on new paths rather than the travel the worn paths of accepted success. To sum up, six essential qualities that are the key to success are: Sincerity, Personal Integrity, Humility, Courtesy, Wisdom, and Charity.</string>
+    <string name="Branches">BACHELOR OF ARTS - BA \nBACHELOR OF COMMERCE- B COM \nBACHELOR OF BUSSINESS ADMINISTRATION - BBA \nBBA IN COMPUTER APPLICATION - BBA(CA) \nBACHELOR OF SCIENCE - B Sc ( Mathematics,  Physics, Chemistry, Microbiology, Botany, zoology) \nBACHELOR OF SCIENCE - COMPUTER SCIENCE -BSC-CS \nMASTER OF COMMERCE - M COM \nMASTER OF SCIENCE- M SC IN ORGANIC CHEMISTRY *We are permitted to fill 10% more seats.</string>
+    <string name="PlacementsInfo">Our college carries out placements on regular basis. Many companies and placement agency look for our fresher for Quality control, Production and R &amp; D in pharma and chemical industries. Our students are also absorbed in Banking and Finance, Insurance and MNC corporates apart from our placements in Silvassa and Vapi Industrial Zone where 3000 companies are operational. Company list and placement agency for campus placements are </string>
+    <string name="CompanyName">Barclays \nInfosys \nMicroink Inc \nSterlite Industries \nAsian Paints \nIPCA \nHawlett Packard HP \nSun Pharmaceuticals \nDabur Ltd \nCatholic Syrian Bank \nHonda Finance \nMahindra Finance \nDept. of Forest, Govt of India \nWestern Railways \nSabero Industries \nAtul Ltd</string>
+    <string name="search">Search by Name/Location</string>
+    <string name="achievements">Achievements</string>
+    <string name="activities">Activities</string>
+    <string name="go">Go</string>
+    <!-- Common Strings -->
+    <string name="noRecordsFound">No Records Found</string>
+    <string name="okCaps">OK</string>
+    <string name="cancelCaps">CANCEL</string>
+
+    <string name="no_connection">Internet not available, Please check your Internet connectivity and try again.</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_connection_title">Alert</string>
+    <string name="ProgressDialog_title">Processing...</string>
+    <string name="ProgressDialog_message">Please wait...</string>
+    <string name="networkErrorTitle">Network Error!</string>
+    <string name="networkErrorMessage">Please Try after some time, Due to Slow Connection</string>
+    <string name="countryCode">Select Your Country</string>
+    <string name="ok">Ok</string>
+    <string name="filter">Filter</string>
+    <string name="filter_management">Management</string>
+    <string name="filter_school">School</string>
+    <string name="filter_college">College</string>
+    <string name="filter_public">Public</string>
+    <string name="filter_private">Private</string>
+    <string name="filter_government">Government</string>
+    <string name="filter_alert_apply">APPLY</string>
+    <string name="filter_alert_cancel">CANCEL</string>
+    <string name="filter_all">All</string>
+    <string name="title_university">University</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_placement">Placement</string>
+    <string name="title_board">Board</string>
+    <string name="title_classes">Classes</string>
+    <string name="na_string">-NA-</string>
+    <string name="version">Version</string>
+    <string name="note">Note :</string>
+    <string name="contact_us">Contact Us :</string>
+    <string name="contact_company_phone">Phone</string>
+    <string name="contact_company_email">Email</string>
+    <string name="company_phone_no">0260-2643882</string>
+    <string name="company_email">equipesoftwares@gmail.com</string>
+    <string name="note_text">To register your School/College with us, contact us on :</string>
+
+    <!-- title page -->
+    <string name="app_info">App Info</string>
+    <string name="about_us">About Us</string>
+    <string name="tvabout">About</string>
+    <string name="tvfaculties">Faculties</string>
+    <string name="tvmedium">Medium</string>
+    <string name="vice_principle_text">Vice Principal :\t </string>
+    <string name="principal_text">Principal :\t</string>
+    <string name="faculty_text">Faculty : </string>
+    <string name="btn_clear_search">Clear</string>
+    <string name="about_title">About</string>
+    <string name="achievement_and_activities_title">Achievements &amp; Activities</string>
+    <string name="facilities_infrastructure_title">Facilities/Infrastructure</string>
+    <string name="contact_title">Contact</string>
+    <string name="title_nav_back_to_search">Back to search</string>
+
+
+</resources>

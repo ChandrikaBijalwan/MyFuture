@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+
+    android:backgroundTintMode="@color/colorPrimary"
+   >
+    <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/tvMyFuture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+       android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30dp"
+       android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/pageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvMyFuture"
+        android:padding="25dp"
+        app:fillColor="@color/colorPrimary"
+        app:pageColor="#e9e9e9" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Get started"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:id="@+id/GetStartedbtn"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

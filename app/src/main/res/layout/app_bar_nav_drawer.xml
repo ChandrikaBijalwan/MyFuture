@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="src_over"
+    android:fitsSystemWindows="true">
+   
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+       >
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/MainActionBar.Popup"
+            app:theme="@style/ToolbarStyle"
+
+
+            >
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/scrollHome"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="true"
+        >
+
+    <RelativeLayout
+        android:id="@+id/lytImageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:backgroundTintMode="src_over"
+            android:backgroundTint="@android:color/transparent"
+            android:fitsSystemWindows="true"
+            android:fillViewport="true"
+            android:scaleType="fitXY"
+            android:alpha="0.8"
+            >
+        <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/homeViewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            android:fillViewport="true"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+           />
+        </RelativeLayout>
+        <com.equipesoftwares.common.CircularNetworkImageView
+            android:id="@+id/ivMainLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/my_future_logo"
+             />
+        
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivMainLogo"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/orangeColor"
+            android:layout_centerHorizontal="true"
+            />
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="match_parent"
+           android:layout_margin="5dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/tvTitle"
+            android:layout_centerHorizontal="true"
+            android:background="@color/purpleColor"/>
+
+        <FrameLayout
+            android:layout_below="@+id/viewLine"
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fillViewport="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            />
+    </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
+

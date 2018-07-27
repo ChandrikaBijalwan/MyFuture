@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/colorPrimaryDark"
+        android:text="Achievements"
+        android:textSize="18sp"
+        android:id="@+id/tvAchievements"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+     />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:text="@string/activities"
+        android:textSize="18sp"
+        android:id="@+id/tvActivities"
+        android:layout_toRightOf="@+id/tvAchievements"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        />
+    </LinearLayout>
+
+    <RelativeLayout
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/noRecordsFound"
+    android:textColor="@color/black"
+    android:visibility="gone"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:id="@+id/tvNoRecordsFound"/>
+
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/rvCommon"
+    android:layout_below="@id/tvNoRecordsFound"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
+    android:scrollbars="none"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
